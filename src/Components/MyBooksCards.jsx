@@ -19,7 +19,7 @@ class MyBooksCards extends Component {
                 key={product.asin}
                 className="d-flex"
               >
-                <Card style={{ width: "18rem" }}>
+                <Card style={{ width: "18rem" }} className="h-100">
                   <Card.Img variant="top" src={product.img} />
                   <Card.Body>
                     <Card.Title>{product.title}</Card.Title>
